@@ -1,0 +1,79 @@
+body { padding-top: 20px; }
+html, body { width: 100%; height: 100%; }
+
+.cover-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.cover-container {
+    display: table;
+    background-color: #0B2353;
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.cover-centered {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding: 1em;
+}
+
+.cover-background {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg,
+    #0B2353 49%, #ffe34c 0, #ffe34c 51%,
+    #0B2353 0, #0B2353 100%, #ffe34c 0);
+    -webkit-background-size:30px 30px;
+    background-size:30px 30px;
+}
+
+.cover-range {
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5%;
+    background-color: #0B2353;
+}
+
+.cover-title > p, a {
+    font-family: 'Cinzel', serif;
+    color: #F8F3ED;
+    font-size: 20px;
+}
+
+.cover-name > .name {
+    font-family: 'Merriweather', serif;
+    color: #F8F3ED;
+    font-size: 55px; 
+}
+
+.cover-name > .additional {
+    position: relative;
+    font-family: 'Merriweather', serif;
+    color: #F8F3ED;
+    margin-top: -7%;
+    margin-bottom: -8%;
+    font-size: 45px;
+}
+
+.horizon-left {
+    border: solid 0.5px #ffe34c; 
+    width: 30%; 
+    margin-left: 20px;
+    margin-top: -2%;
+}
+
+.horizon-right {
+    border: solid 0.5px #ffe34c; 
+    width: 30%; 
+    margin-right: 20px;
+    margin-bottom: -2%;
+}

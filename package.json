@@ -1,0 +1,17 @@
+{
+  "name": "the_beginning_of_forever",
+  "version": "1.0.0",
+  "description": "Yeongjun & Hayoon - the Beginning of Forever",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Hayoon Jung",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
